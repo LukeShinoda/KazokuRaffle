@@ -1,0 +1,200 @@
+html{
+    background-color:#121418 ;
+    align-items: center;
+    height:100%;
+    width:250px;
+    color: white;
+
+
+}
+    .App-header {
+        background-color: #121418;
+        align-items: center;
+        height:100%;
+        color: white;
+
+      }
+
+.PageSource{
+position:absolute;
+width:100px;
+left:250px;
+
+}
+.Sidebar{
+    top:0%;
+    min-width: 250px;
+    background: #1D2026;
+    height:100%;
+    position:fixed;
+    left:0px;
+    z-index: 1;
+    border-right-style: solid;
+    border-right-color:rgba(106, 91, 205,0.1);
+    border-right-width: 1px;
+
+}
+
+
+.Header{
+top:0%;
+min-width: 250px;
+display: flex;
+flex-direction: column;
+height:30%;
+position:fixed;
+left:0px;
+display:inherit;
+
+}
+
+.NavBar{
+    display: flex;
+    border-style: none;
+    flex-direction: column;
+    height:50%;
+    position:fixed;
+    left:1px;    
+    top:30%;
+    min-width: 250px;
+    display:inherit;
+    align-items: center;
+
+
+}
+.item{
+    width:98%;
+    height:50px;
+    display:inherit;
+}
+.item:hover {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.itemText{
+    margin-left:50px;
+    margin-top:2px;
+    padding: 7px 0px;
+    text-align: justify;
+    font-size: 30px;
+}
+
+/* Discord panel*/
+.dcPanel{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-style: none;
+    height:20%;
+    position:fixed;
+    left:0px;    
+    min-width: 250px;
+    bottom:0%;
+    margin-top:20px;
+}
+.dcButton{
+    margin:20px;
+    background-color:#6A5ACD;
+    border-radius: 5px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    outline: none;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-weight: bold;
+    width:100%;
+    display:inherit;
+}
+button:hover {
+    background-color: 	#483D8B;
+  }
+/* panel that replaces the button when logged in 
+CONTAINER*/
+.dcUser{
+    position: relative;
+    height:40%;
+    min-width:250px;
+    left:0%;
+}
+
+
+  .dcIconImage{
+      width:40px;
+      height:40px;
+      border-radius: 50%;
+      margin-left:10px;
+
+  }
+.dcIcon{
+ order:1;
+ width:20%;
+ margin-top:10px;
+
+
+}
+  .dcUserName{
+    order:2;
+    margin-top:10px;
+    margin-left:10px;
+    font-size:15px;
+    height:40px;
+    width:80%;
+    padding:10px 0px;
+    text-align:left;
+    color:white;
+
+  }
+
+  .LogoutButton{
+    margin:20px;
+    background-color:#6A5ACD;
+    border-radius: 5px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    outline: none;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-weight: bold;
+    width:60%;
+    display:inherit;
+    position: absolute;
+    text-align:center;
+    left:10%;
+    top:70%;
+
+  }
+a{
+    font-size: 30px;
+    color:white;
+    text-decoration: none;
+}

@@ -1,0 +1,42 @@
+
+
+.Raffle{
+    position:absolute;
+    left:250px;
+    width:auto;
+}
+.ContainerRaffle
+{   
+    margin:auto;
+    top:50px;
+    width:90%;
+    left:10%;
+
+
+}
+.ContainerGrid{
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+/*designs the container of the items*/
+.ItemRaffle{
+    border-radius: 10px;
+    width:31.7%;
+    margin:10px;
+    display:flex;
+    flex-direction: column;
+    flex-shrink: 3;
+    align-items:center;
+    background: #1D2026;;
+    min-width:10px;
+
+}
+.ImgRaffle{
+    width:300px;
+    height:auto;
+    margin:30px;
+}

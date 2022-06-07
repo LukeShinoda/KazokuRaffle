@@ -1,14 +1,39 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import {
+  BrowserRouter ,
+  Routes,
+  Route,
+  Link
+} from "react-router-dom";import './index.css';
 import App from './App';
-import TNX from './TNX.tsx';
+import Raffles from "./pages/Raffles.js";
+import Giveaways from "./pages/Giveaways.js";
+import Tipping from "./pages/Tipping.js";
+import Leaderboard from "./pages/Leaderboard.js";
+import Account from "./pages/Account.js";
+import Navbar from "./Navbar/Navbar.js";
+
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App /> 
+    <BrowserRouter>
+    <Routes>
+      <Route path="../" element={<App />}/>
+      <Route path="/Raffles" element={<Raffles />}/>
+      <Route path="/Giveaways" element={<Giveaways />}/>
+      <Route path="/Tipping" element={<Tipping />}/>
+      <Route path="/Leaderboard" element={<Leaderboard />}/>
+      <Route path="/Account" element={<Account />}/>
+    
+  </Routes>
+    <Navbar />
+    </BrowserRouter>
+    
+
   </React.StrictMode>
 );
 
